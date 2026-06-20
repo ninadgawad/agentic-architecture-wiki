@@ -1,0 +1,14 @@
+[
+  {
+    "input": "What are the HITL requirements for cross-border transfers over $10k?",
+    "expected_output": "Rule RULE-AML-005: Human-in-the-Loop review is mandatory.",
+    "eval_type": "exact_match_on_id",
+    "priority": "Critical"
+  },
+  {
+    "input": "Explain the data persistence policy for PII in agent memory.",
+    "expected_output": "Rule RULE-DATA-PRIV-01: No PII persistence allowed in long-term storage.",
+    "eval_type": "semantic_similarity",
+    "threshold": 0.95
+  }
+]
