@@ -1,0 +1,36 @@
+{
+  "schema_name": "Agentic Compliance Governance",
+  "version": "1.0.0",
+  "domain": "FinTech / RegTech",
+  "governance_rules": [
+    {
+      "id": "RULE-KYC-001",
+      "category": "Identity Verification",
+      "requirement": "All automated identity checks must include a liveness detection score.",
+      "validation_logic": "presence_of(liveness_score) && liveness_score > 0.90",
+      "risk_level": "Critical"
+    },
+    {
+      "id": "RULE-AML-005",
+      "category": "Anti-Money Laundering",
+      "requirement": "Cross-border transactions over $10k USD must be flagged for Human-in-the-Loop (HITL) review.",
+      "validation_logic": "if (amount > 10000 && is_cross_border) { return hitl_required; }",
+      "risk_level": "High"
+    },
+    {
+      "id": "RULE-DATA-PRIV-01",
+      "category": "GDPR / Data Privacy",
+      "requirement": "Agentic memory must not persist PII (Personally Identifiable Information) in long-term vector storage.",
+      "validation_logic": "scan_for_pii(agent_memory_buffer) == false",
+      "risk_level": "Critical"
+    }
+  ],
+  "agent_guardrails": {
+    "hallucination_threshold": 0.05,
+    "required_citations": [
+      "regulatory-handbook-2026",
+      "internal-compliance-wiki"
+    ],
+    "mcp_protocol_version": "2.4.1"
+  }
+}
