@@ -7,6 +7,6 @@ An AI agent in Generative AI is an autonomous system powered by a foundational m
 - Agent: You from Goal > AI Gets it Done
 
 
-## Summary: Agents completes a goal 
+### Summary: Agents completes a goal 
 
 
