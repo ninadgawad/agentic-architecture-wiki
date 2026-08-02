@@ -10,3 +10,8 @@ An AI agent in Generative AI is an autonomous system powered by a foundational m
 ### Summary: Agents completes a goal 
 
 
+## Composition of a Agent 
+1. The LLM
+2. The Tools
+3. The Loop
+4. The Context
