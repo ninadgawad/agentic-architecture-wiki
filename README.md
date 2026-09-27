@@ -17,7 +17,11 @@ Instead of using AI only during the Build phase, AI becomes part of every stage:
 Plan → Design → Build → Test → Deploy → Maintain → Plan
 ```
 The artifact becomes the handoff, and the handoff can become the trigger for the next stage.
+An AI-native SDLC turns the relay race into a continuous loop:
 
+```
+Plan → Design → Build → Test → Deploy → Maintain → Plan
+```
 ### What Changes for Engineering Teams?
 
 The biggest change isn't that engineers stop writing code. Instead, the engineer's role moves upward in the development lifecycle.
