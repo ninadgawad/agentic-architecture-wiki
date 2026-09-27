@@ -1,8 +1,26 @@
 # Agentic Architecture Wiki
-
 A compounding knowledge base for architecting autonomous agent systems in highly regulated environments.
-
 This wiki serves as a centralized knowledge repository for agentic systems, designed to support both human understanding and AI-agent consumption.
+
+## AI SDLC
+
+The Software Development Life Cycle (SDLC) is the journey of software from an idea to a production system. 
+It typically includes planning, design, development, testing, deployment, and maintenance, with different teams involved at each stage. 
+Traditional SDLC processes rely heavily on documents, tickets, reviews, and approvals to ensure quality and accountability. 
+However, many of these processes were designed when writing code was the most time-consuming part of development. 
+With AI and agentic AI, we can automate and accelerate many activities across the SDLC while keeping humans involved for important decisions, reviews, and approvals. 
+The goal is to make software development faster, more efficient, and still safe and controlled.
+
+
+Instead of using AI only during the Build phase, AI becomes part of every stage:
+```
+Plan → Design → Build → Test → Deploy → Maintain → Plan
+```
+
+
+
+
+
 
 ## The Visual Architecture
 
