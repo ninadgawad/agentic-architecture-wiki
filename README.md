@@ -71,7 +71,13 @@ When code is no longer the primary bottleneck, organizations need to redesign ev
 That is the core idea behind an AI-Native SDLC: don't simply add AI to the existing process. Redesign the process around what AI agents can do, while deliberately keeping humans in control of the decisions that matter.
 
 
+### Traditional SDLC
 
+Humans perform → Humans document → Humans hand off → Humans review
+
+### AI-native SDLC
+
+Humans define intent → Agents execute → Artifacts provide context → Automated gates validate → Humans govern → Production feedback starts the next cycle
 
 
 ## The Visual Architecture
